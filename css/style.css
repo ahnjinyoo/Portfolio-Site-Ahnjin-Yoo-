@@ -2,13 +2,25 @@
 Primary Color (Blue): #263547;
 Secondary Color (Yellow): #FFDE59 */
 
+* {
+  /* border-top: 10px solid #1098ad; */
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #fffbfb;
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
 }
 
 h1,
@@ -118,4 +130,78 @@ a:focus {
 .button-domus:hover {
   background-color: #51050f;
   color: #ffffff;
+}
+
+/* Layout stlying */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  max-width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ff7f50;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ff7f50;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ff5050;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #7a0000;
+}
+
+#hero {
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero {
+  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
 }
