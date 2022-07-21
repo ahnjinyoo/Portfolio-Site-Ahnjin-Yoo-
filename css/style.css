@@ -146,7 +146,6 @@ h1 {
 }
 
 .logo {
-  display: block;
   max-width: 250px;
   margin-right: auto;
   margin-left: auto;
@@ -253,6 +252,7 @@ Medium devices (640px and larger)
 
 [class*="col-"] {
   float: left;
+  padding: 10px;
 }
 
 .row::after {
@@ -280,16 +280,19 @@ Medium devices (640px and larger)
 }
 .button:hover {
   opacity: 0.8;
+  background-color: #ff7f50;
+  color: #ffffff;
 }
 
 .button {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
   display: inline-block;
-  background-color: #505fff;
-  color: white;
   font-weight: 400;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
