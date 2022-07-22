@@ -201,10 +201,6 @@ nav > ul > li > a:active {
   width: 100%;
 }
 
-#hero {
-  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
-}
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
